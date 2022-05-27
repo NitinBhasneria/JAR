@@ -1,0 +1,53 @@
+.containerForm {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 20px;
+    margin: 2% 5%;
+}
+div>label {
+    text-align: left;
+    padding-left: 4%;
+    width: 13%;
+    margin: 2% 0%;
+}
+div>h3 {
+    padding-left: 4%;
+    width: 90%;
+    text-align: left;
+}
+.btnDiv {
+    width: 100%;
+    display: flex;
+    margin: 1% 4%;
+    justify-content: center;
+}
+.btnForm {
+    cursor: pointer;
+    height: 40px;
+    width: 20%;
+    font-size: 15px;
+    background: #a4a3f1;
+}
+.submit{
+    align-self: center;
+}
+div>input {
+    width: 30%;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 2px;
+    outline: none !important;
+}
+.innerContainer {
+    height: max-content;
+    padding: 1% 5%;
+    width: 90%;
+    margin: 1% 4%;
+    border-radius: 2px;
+    background: #493069;
+    box-shadow:  5px 5px 8px #1d132a,
+             -5px -5px 8px #754da8;
+}

@@ -1,0 +1,125 @@
+body {
+  background-image: url("../public/cool-background.png")
+}
+a:-webkit-any-link {
+  text-decoration: none !important;
+  color: white;
+}
+.App {
+  text-align: center;
+}
+.mainCont {
+  margin-top: 150px !important;
+}
+.flexm {
+  display: flex;
+  justify-content: space-between;
+  padding: 0% 5%;
+}
+.navbar {
+  margin-top: -150px;
+  width: 100%;
+  position: fixed;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1% 5%;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.6px);
+  -webkit-backdrop-filter: blur(5.6px);
+  
+  height: min-content;
+  align-items: center;
+}
+.linkContainer {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.btnAdd {
+  padding: 10px;
+  border-radius: 2px;
+  cursor: pointer;
+  background: #D83F87;
+  box-shadow:  2px 2px 4px #E98074,
+              -2px -2px 4px #f4bdb6;
+}
+.btnAdd:active {
+  box-shadow: inset 2px 2px 4px #E98074,
+              inset -2px -2px 4px #f4bdb6;
+}
+.cand1 {
+  max-height: 120px;
+  transition: max-height 1s;
+}
+.cand2 {
+  max-height: 1000px;
+	transition: max-height 2s;
+}
+.candidate {
+	overflow: hidden;
+  color: white;
+  width: 80%;
+  border-radius: 5px;
+  background: #D83F87;
+  box-shadow:  3px 3px 7px #E98074,
+             -3px -3px 7px #f4bdb6;
+  margin: 40px 10%;
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+.name {
+  margin: auto 0;
+  font-size: 25px;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+.status {
+  font-size: 20px;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 3px;
+  background: #84CEEB;
+}
+.email {
+  margin: 8px 5%;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 100 !important;
+}
+.btn{
+  padding: 5px 10px;
+  border-radius: 2px;
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+  margin: 2% 0%;
+}
+.accept {
+  background-color: #5c9700;
+}
+
+.reject {
+  background-color: #d80000;
+}
+.pos{
+  font-size: 20px;
+  text-align: left;
+}
+.head {
+  font-size: 20px;
+  margin: 2% 0% 0% 4%;
+  text-align: left;
+}
+.exp {
+  border-radius: 5px;
+  background: #c34c7e;
+  box-shadow:  inset 5px 5px 7px #b04471,
+              inset -5px -5px 7px #d7548b;
+  margin-top: 10px;
+  padding: 5px;
+}
